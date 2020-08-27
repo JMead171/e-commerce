@@ -6,6 +6,23 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
+  Category.findAll({
+    //attributes: ['id', 'category_name', 'created_at',
+    //[sequelize.literal('(SELECT COUNT(*) FROM category WHERE id = vote.post_id)'), 'vote_count']],
+    include: [
+      {
+        model: Product,
+        attributes: ['id', 'product_name', 'price', 'stock', 'category_id', 'created_at'],
+      },
+    ]
+  })
+    .then(dbcategoryData => res.json(dbcategoryData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
 });
 
 router.get('/:id', (req, res) => {

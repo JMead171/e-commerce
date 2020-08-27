@@ -9,7 +9,7 @@ N/A
 ## Description
 This project is the back end for an e-commerce website that uses the latest technologies
 - This project uses functional Express.js APIs.
-- When a user adds a database name, MySQL username, and MySQL password to an environment variable file, then the useris able to connect to a database using Sequelize.
+- When a user adds a database name, MySQL username, and MySQL password to an environment variable file, then the user is able to connect to a database using Sequelize.
 - When a user enters schema and seed commands, then a development database is created and is seeded with test data
 - When a user enters the command to invoke the application, then a server is started and the Sequelize models are synced to the MySQL database.
 - When a user opens API GET routes in Insomnia Core for categories, products, or tags, ten the data for each of these routes is displayed in a formatted JSON.
