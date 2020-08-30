@@ -41,13 +41,17 @@ Pull requests are welcome. For major chages, please open an issue first to discu
   
 
 ## Technology Used
-Node.js, Javascript, API Routes, Express.js, MySQL2, Sequelize, dotenv package
+Node.js, Javascript, ORM, API Routes, Express.js, MySQL2, Sequelize, dotenv package
 
 
 ## Screen Shot
-
+![image](https://user-images.githubusercontent.com/64744763/91660003-5c749580-eaa1-11ea-9978-9c86a4ef2233.png)
 
 ## Video Walkthrough
+https://drive.google.com/file/d/17V77jE6RGnv297bCDqFxlfMbSAqZ0cF5/view
+
+https://drive.google.com/file/d/10bdx-nio4bZLgceE9fdv6DSfkx7Y6YPC/view
+
 
 
 ## Tests
